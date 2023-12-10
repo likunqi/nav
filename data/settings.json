@@ -1,16 +1,16 @@
 {
-  "favicon": "https://cdn.jsdelivr.net/gh/xjh22222228/nav@image/logo.png",
+  "favicon": "https://cdn.jsdelivr.net/gh/likunqi/nav@image/nav-1702194776304-imag111e11.png",
   "homeUrl": "https://nav3.cn",
   "language": "zh-CN",
-  "loading": "random",
-  "showGithub": true,
-  "title": "发现导航 - 精选实用导航网站",
-  "description": "发现导航 - 精选实用导航网站",
+  "loading": "loading1",
+  "showGithub": false,
+  "title": "码孟川导航 - 精选实用导航网站",
+  "description": "码孟川导航 - 精选实用导航网站",
   "keywords": "导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js",
-  "theme": "Light",
+  "theme": "Side",
   "appTheme": "App",
   "headerContent": "",
-  "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>Copyright © 2018-present nav3.cn, All Rights Reserved</div>",
+  "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>Copyright © 2023-present nav3.cn, All Rights Reserved</div>",
   "iconfontUrl": "//at.alicdn.com/t/font_2522843_wl70o31sy6.js",
   "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba",
   "cnzzStatisticsUrl": "",
@@ -56,7 +56,7 @@
       "height": null
     }
   ],
-  "showLanguage": true,
-  "showRate": true,
+  "showLanguage": false,
+  "showRate": false,
   "mirrorList": []
 }

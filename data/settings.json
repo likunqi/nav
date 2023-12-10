@@ -9,10 +9,10 @@
   "keywords": "导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js",
   "theme": "Side",
   "appTheme": "Side",
-  "headerContent": "",
+  "headerContent": "<script>\n  // 确保DOM完全加载\n  document.addEventListener('DOMContentLoaded', function() {\n    // 创建一个新的<style>元素\n    var style = document.createElement('style');\n    // 设置样式文本\n    style.textContent = `\n      body {\n        /* 设置背景图片 */\n        background-image: url('https://likunqi.top/file/42ad312978b9ba109113f.jpg');\n        /* 设置背景图片重复 */\n        background-repeat: no-repeat;\n        /* 设置背景图片位置 */\n        background-position: center center;\n        /* 设置背景尺寸 */\n        background-size: cover;\n        /* 设置背景颜色和透明度 */\n        background-color: rgba(255, 255, 255, 0.4); /* 此处的透明度设置为40% */\n        /* 确保背景覆盖整个页面 */\n        width: 100%;\n        height: 100%;\n      }\n    `;\n    // 将<style>元素添加到<head>\n    document.head.appendChild(style);\n  });\n</script>",
   "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>Copyright © 2023-present nav3.cn, All Rights Reserved</div>",
   "iconfontUrl": "//at.alicdn.com/t/font_2522843_wl70o31sy6.js",
-  "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba",
+  "baiduStatisticsUrl": "",
   "cnzzStatisticsUrl": "",
   "simThemeImages": [
     {
@@ -33,12 +33,6 @@
   "simThemeAutoplay": true,
   "sideThemeImages": [
     {
-      "src": "https://cdn.jsdelivr.net/gh/xjh22222228/nav@image/nav-1637490885331-ChMkKWF4tn6IeIGwAD5r3l1JSDcAAU-5QFAFu4APmv2924.jpeg",
-      "url": "",
-      "width": null,
-      "height": null
-    },
-    {
       "src": "https://cdn.jsdelivr.net/gh/xjh22222228/nav@image/sim-wallpaper.jpg",
       "url": "",
       "width": null,
@@ -46,7 +40,7 @@
     }
   ],
   "sideThemeHeight": 350,
-  "sideThemeAutoplay": true,
+  "sideThemeAutoplay": false,
   "shortcutThemeShowWeather": true,
   "shortcutThemeImages": [
     {
